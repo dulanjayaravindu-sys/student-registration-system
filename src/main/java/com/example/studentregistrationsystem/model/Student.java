@@ -4,16 +4,16 @@ public class Student {
     private Long id;
     private String name;
     private String gender;
-    private String email;
     private int age;
+    private String email;
 
     //Constructor
-    public Student(Long id, String name, String gender, String email, int age) {
+    public Student(Long id, String name, String gender, int age, String email) {
         this.id = id;
         this.name = name;
         this.gender = gender;
-        this.email = email;
         this.age = age;
+        this.email = email;
     }
 
     // Getters and Setters
